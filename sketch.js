@@ -69,7 +69,6 @@ function setup() {
   World.add(world,tower);
   
   //Guardar clase Cannon en una variable
-  angle = 20;
   cannon = new Cannon(180,110,130,100,angle);
   //Guardar clase CannonBall en una variable
   cannonBall = new CannonBall(cannon.x, cannon.y);
